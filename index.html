@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/59c2683a3c.js" crossorigin="anonymous"></script>
     <title>Practica Integradora 03 de Junio</title>
 </head>
 
@@ -20,9 +21,12 @@
                 </ul>
             </nav>
         </section>
-        <section>
-            <img src="img/logo.PNG" alt="Logo">
-            <ul>
+        <section class="menu">
+            <img src="img/cat.png" alt="Icono pequeño gato" class="menuImg">
+            <span class="menuLogo menuLogoFront">Front</span>
+            <span class="menuLogo menuCatDog">Cat&amp;Dog</span>
+            <img src="img/dog.png" alt="Icono pequeño perro" class="menuImg">
+            <ul class="ulDisplay">
                 <li><img src="img/pawprint1.png" alt="Icono pequeño patita dog"><a href="views/categoria.html">Categoria</a></li>
                 <li><img src="img/pawprint1.png" alt="Icono pequeño patita dog"><a href="views/pets.html">Pets</a></li>
                 <li><img src="img/pawprint1.png" alt="Icono pequeño patita dog"><a href="views/nosotros.html">Nosotros</a></li>
@@ -39,7 +43,7 @@
         </section>
         <section>
             <header>
-                <img src="img/pawprint1.png" alt="Icono grande patita dog">
+                <img src="img/pawprint2.png" alt="Icono grande patita dog">
                 <h1>Productos Destacados</h1>
                 <p><a href="views/productosDestacados/comederos.html">comederos</a> -
                     <a href="views/productosDestacados/accesorios.html">Accesorios</a> -
@@ -84,17 +88,19 @@
                     <input type="submit" value="Suscribirme">
         </section>
     </main>
-    <footer>
+    <footer class="menuLogo menuCatDog">
         <section>
-            <img src="img/icono-ubicacion.png" alt="icono-ubicacion">
-            <h2>Localidad</h2>
-            <p>Calle -P Provincia</p>
-            <img src="img/Icono-telefono.png" alt="Icono-telefono">
-            <h2>Telefono</h2>
-            <p>Numero de telefono</p>
-            <img src="img/Icono-mail.png" alt="Icono-mail">
-            <h2>Correo Electronico</h2>
-            <p>Direccion de correo</p>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Localidad</span> <br/>
+            <span class="footerSub">Calle -P Provincia</span><br/><br/>
+
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>Teléfono</span> <br/>
+            <span class="footerSub">Número de telefono</span><br/><br/>
+
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            <span>Correo Electrónico</span> <br/>
+            <span class="footerSub">Dirección de correo</span><br/>
         </section>
         <section>
             <p>Todos los derechos reservados Front End</p>

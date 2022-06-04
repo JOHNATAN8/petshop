@@ -8,16 +8,64 @@
     font-size: 10px;
 }
 
+.menu {
+    background-color: #F0A83E;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    height: 62px;
+}
+
+.menuImg {
+    width: 25px;
+    height: 25px;
+}
+
+.menuLogo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.menuLogoFront {
+    color: #3C2313;
+}
+
+.menuCatDog {
+    color: #FFF;
+}
+
 /*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }*/
-  
+
+.ulDisplay {
+    display: inline;
+}
+
 li {
     display: inline;
 }
 
 .topRight {
     text-align: right;
+}
+
+i {
+    font-size: 50px;
+    color: #8A8787;
+}
+
+footer {
+    background: #3C2313;
+}
+
+.footerSub {
+    font-size: 10px;
+    color: #8A8787;
 }
